@@ -43,7 +43,7 @@ namespace ExceptionHandlingExercise
                     Console.WriteLine($"Unable to Parse '{item}'");
                 }
             }
-                // Now create a try catch
+            // Now create a try catch
 
             // Inside your try block
             // set your string variable to each array element in your char[] to .ToString()
@@ -56,11 +56,11 @@ namespace ExceptionHandlingExercise
             //Console.WriteLine($"Unable to Parse '{character}'"); //character will be the name of each item in your collection
 
 
-
-            //foreach (var num in numbers)
-            //{
-            //    Console.WriteLine(num);
-            //}
+            Console.WriteLine("Printing numbers only: ");
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
